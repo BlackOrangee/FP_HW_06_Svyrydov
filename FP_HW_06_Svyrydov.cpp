@@ -6,9 +6,9 @@ int main()		// Task 1. The user enters two dates(day, month, year in the form of
 				// It is necessary to determine and output the number of days between these two dates.
 				// For calculations, take into account leap years, as well as the correct number of days in months.
 {
-	int day_1, day_2;
-	int month_1, month_2, cin_month_1, cin_month_2;
-	int year_1, year_2, years;
+	unsigned int day_1, day_2;
+	unsigned int month_1, month_2, cin_month_1, cin_month_2;
+	unsigned int year_1, year_2, years;
 
 	enum months //	Days in monhs
 	{
@@ -20,7 +20,7 @@ int main()		// Task 1. The user enters two dates(day, month, year in the form of
 	};
 
 
-	cout << "\n\tEnter the first date (first date must be lower than second)\n\n\tDay: "; cin >> day_1;
+	cout << "\n\tEnter the first date\n\n\tDay: "; cin >> day_1;
 	cout << "\n\tMonth: ";	cin >> cin_month_1;
 	cout << "\n\tYear: ";	cin >> year_1;
 
